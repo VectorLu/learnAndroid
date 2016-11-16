@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vectorlu.babaibiqiuni.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/ba_bai_bi_qiu_ni"
+        android:scaleType="centerCrop"
+
+        android:id="@+id/imageView" />
+
+    <!--亮色的配色好难，只是为了练习布局，配色丑就暂时不管了Orz
+    -->
+
+
+
+        <TextView
+            android:id="@+id/title_babaiqiuni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="八百比丘尼的阴阳寮"
+            android:textSize="32sp"
+            android:background="#856BF4F2"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_below="@id/title_babaiqiuni"
+            android:padding="16dp"
+            android:text="想要在PvE中大放异彩吗？想要在PvP中所向披靡吗？快来加入八百比丘尼的阴阳寮，成为不老的欧洲阴阳师！
+
+联系电话：8888888
+地址：华东X区
+网址：www.babaibiqiuniyyl.com
+
+我们的口号是：脱非入欧！"
+
+            android:textSize="24sp"
+            android:background="#FFFFFF"
+            android:textColor="#000000"
+            />
+
+</LinearLayout>
